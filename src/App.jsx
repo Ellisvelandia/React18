@@ -1,11 +1,15 @@
-import React from "react";
+import Book from "./pages/Book";
+import ErrorExample from "./pages/ErrorExample";
+import "./app.css";
+import UseStateObject from "./pages/UseStateObject";
 
 const App = () => {
   return (
-    <div>
-      <h1>First component</h1>
-      <p>this is my message</p>
-    </div>
+    <>
+      <Book />
+      <ErrorExample />
+      <UseStateObject />
+    </>
   );
 };
 
